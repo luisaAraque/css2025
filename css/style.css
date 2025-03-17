@@ -1,0 +1,55 @@
+/*comentarios*/
+*{
+    font-family: Verdana;
+    text-align: justify;
+    padding: 1px;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img img{ /* selecto descente  */
+
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+}
+
+header nav ul {
+    list-style:  none;
+    overflow: hidden;
+}
+
+header nav ul li{
+    float: left; /*ubica horizontal uno al lado de otro*/
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 5px 5px;  
+    display : inline-block;
+    color: aliceblue;
+
+}
+
+header nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+footer p{
+    text-align: center;
+}
